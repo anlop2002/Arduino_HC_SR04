@@ -1,9 +1,19 @@
+/*
+ * Garage door sensor project
+ * Andres Lopez de Vergara
+ */
+ 
+const int greenLedPin = 13;
+const int redLedPin = 12;
+
 void setup() {
-  // put your setup code here, to run once:
+  Serial.begin(9600);
+
+  pinMode(greenLedPin,OUTPUT);
+  pinMode(redLedPin, OUTPUT);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  
 }
